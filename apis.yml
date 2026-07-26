@@ -1,7 +1,16 @@
 aid: exactera
 name: Exactera
-description: Exactera is a company surfaced as a portfolio company of insight-partners and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Exactera is a corporate tax technology and advisory company that pairs
+  AI-powered software with expert tax professionals to help multinational
+  corporations manage the full corporate tax lifecycle. Its SaaS platform and
+  services span transfer pricing compliance and benchmarking, R&D tax credits,
+  fixed-asset depreciation, indirect (sales and use) tax advisory, tax
+  provision, and the RoyaltyStat royalty-rate and transfer-pricing data
+  platform. Exactera automates documentation, benchmarking studies, and
+  regulatory reporting so tax and finance teams can reduce audit exposure and
+  meet global compliance requirements. Backed by Insight Partners, the company
+  serves enterprise tax departments and advisory firms worldwide.
 url: https://raw.githubusercontent.com/api-evangelist/exactera/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +18,31 @@ x-backed-by:
 - insight-partners
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
+image: https://exactera.com/wp-content/uploads/2023/05/OG_image.jpg
 tags:
 - Company
+- Tax
+- Tax Technology
+- Transfer Pricing
+- Tax Compliance
+- Regulatory Compliance
+- Financial Services
+- R&D Tax Credits
+- SaaS
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +50,36 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: TrustCenter
+  url: security/exactera-trust-center.yml
+- type: Compliance
+  url: https://exactera.com/trust/
 - type: Website
-  url: https://www.crossborder.ai/
+  url: https://exactera.com/
+- type: About
+  url: https://exactera.com/about/
+- type: Pricing
+  url: https://exactera.com/pricing/
+- type: Blog
+  url: https://exactera.com/news/
+- type: Support
+  url: https://exactera.com/contact/
+- type: Login
+  url: https://exactera.com/client-portal/
+- type: TermsOfService
+  url: https://exactera.com/terms-of-service/
+- type: PrivacyPolicy
+  url: https://exactera.com/privacy-policy/
+- type: LinkedIn
+  url: https://www.linkedin.com/company/exactera/
+- type: YouTube
+  url: https://www.youtube.com/channel/UCp4X0xg24H77oevQBdfYmTw
+- type: DomainSecurity
+  url: security/exactera-domain-security.yml
+- type: WellKnown
+  url: well-known/exactera-well-known.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
