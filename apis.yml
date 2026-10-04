@@ -51,7 +51,7 @@ tags:
 - Transfer Pricing
 - Tax Compliance
 - Regulatory Compliance
-- Financial-Services
+- Financial Services
 - R&D Tax Credits
 - Software-as-a-Service
 tags_raw:
@@ -64,6 +64,7 @@ tags_raw:
 - Financial Services
 - R&D Tax Credits
 - SaaS
+- Financial-Services
 apis: []
 maintainers:
 - FN: Kin Lane
